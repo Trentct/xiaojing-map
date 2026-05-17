@@ -16,12 +16,11 @@ git clone https://github.com/Trentct/xiaojing-map.git ~/.claude/skills/xiaojing-
 
 ## 依赖
 
-本 skill 依赖[微信读书官方 skill `weread-skills`](https://cdn.weread.qq.com/skills/weread-skills.zip) 来调微信读书 API。先装它:
+本 skill 依赖[微信读书官方 skill `weread-skills`](https://weread.qq.com/r/weread-skills) 来调微信读书 API。按官方推荐姿态,对 AI 说一句话即可:
 
-```bash
-curl -fL https://cdn.weread.qq.com/skills/weread-skills.zip -o /tmp/weread-skills.zip \
-  && unzip -o /tmp/weread-skills.zip -d ~/.claude/skills/
-```
+> 下载 https://weread.qq.com/r/weread-skills 安装 skill
+
+AI 会自动下载并解压到 `~/.claude/skills/weread-skills/`。
 
 ## 配置
 
