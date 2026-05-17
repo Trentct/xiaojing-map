@@ -14,15 +14,13 @@
 
 ### 第 1 步:让 AI 装好两个 skill
 
-把下面这段话粘贴到 Cursor / Claude Code 对话框,AI 会自动装好:
+把下面这段话粘贴到 Cursor / Claude Code 对话框,AI 会自动装好(自动选合适的 skills 目录):
 
 ```
 帮我装下面两个 skill:
-1. 下载 https://weread.qq.com/r/weread-skills 安装 skill
-2. git clone https://github.com/Trentct/xiaojing-map.git 到 ~/.claude/skills/xiaojing-map
+1. https://weread.qq.com/r/weread-skills
+2. https://github.com/Trentct/xiaojing-map
 ```
-
-> Cursor 用户也可换成 `~/.cursor/skills-cursor/`,Codex 用户换 `~/.codex/skills/`——目录由你的 Agent 工具决定。
 
 ### 第 2 步:拿到你的微信读书 API Key
 
