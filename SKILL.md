@@ -15,16 +15,19 @@ endpoint:
 用户在浏览器打开链接即可看到自己的阅读版图。
 
 项目主页:[https://book-map-visualization.vercel.app](https://book-map-visualization.vercel.app)
-GitHub: [book-map-visualization](https://github.com/Trentct/book-map-visualization)
+本 skill 仓库:[github.com/Trentct/xiaojing-map](https://github.com/Trentct/xiaojing-map)
+配套网页仓库:[github.com/Trentct/book-map-visualization](https://github.com/Trentct/book-map-visualization)
 
 ---
 
 ## 1. 依赖检测(必读)
 
-本 skill (`xiaojing-map`) **依赖** [weread-skills](https://cdn.weread.qq.com/skills/weread-skills.zip)。
+本 skill (`xiaojing-map`) **依赖** [weread-skills](https://weread.qq.com/r/weread-skills) (微信读书官方 skill)。
 在执行任何命令前,先检测 `~/.claude/skills/weread-skills/SKILL.md` 是否存在:
 
-- **不存在**:执行以下命令自动安装,然后继续工作流
+- **不存在**:按官方推荐姿态自助安装——参照官方介绍页 `https://weread.qq.com/r/weread-skills`,
+  通常一句话即可完成(下载并解压 `cdn.weread.qq.com/skills/weread-skills.zip` 到 `~/.claude/skills/`)。
+  对应的 shell 命令是:
   ```bash
   curl -fL https://cdn.weread.qq.com/skills/weread-skills.zip -o /tmp/weread-skills.zip && \
     unzip -o /tmp/weread-skills.zip -d ~/.claude/skills/ && \
@@ -34,7 +37,7 @@ GitHub: [book-map-visualization](https://github.com/Trentct/book-map-visualizati
 - **存在**:直接进入工作流
 
 另外检测 `WEREAD_API_KEY` 环境变量:
-- 未设置 → 提示用户:`export WEREAD_API_KEY=<你的 wrk-xxxx>`(可在微信读书官方 skill 页面生成),并停止
+- 未设置 → 提示用户:`export WEREAD_API_KEY=<你的 wrk-xxxx>`(在官方介绍页 `https://weread.qq.com/r/weread-skills` 按指引生成),并停止
 - 已设置 → 继续
 
 ---
