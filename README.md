@@ -117,7 +117,7 @@ flowchart LR
 
 ## 相关项目
 
-- **书单地图网页**([Trentct/book-map-visualization](https://github.com/Trentct/book-map-visualization)) — 接收 skill 输出 + 渲染地图的网页端,部署在 [book-map-visualization.vercel.app](https://book-map-visualization.vercel.app)
+- **书单地图网页**([Trentct/book-map-visualization](https://github.com/Trentct/book-map-visualization)) — 接收 skill 输出 + 渲染地图的网页端,部署在 [www.pathiamap.com](https://www.pathiamap.com)
 - **weread-skills**(微信读书官方) — 微信读书 Agent skill,本项目的上游依赖
 
 ## License

@@ -4,7 +4,7 @@ description: 把微信读书书架按作者出生国变成一张可视化的世�
 version: 1.0.0
 depends_on: [weread-skills]
 endpoint:
-  production: https://book-map-visualization.vercel.app
+  production: https://www.pathiamap.com
   development: http://localhost:3000
 ---
 
@@ -14,7 +14,7 @@ endpoint:
 本 skill 负责调 weread-skills 拉书架 → LLM 解析国籍/分类 → 生成一键链接,
 用户在浏览器打开链接即可看到自己的阅读版图。
 
-项目主页:[https://book-map-visualization.vercel.app](https://book-map-visualization.vercel.app)
+项目主页:[https://www.pathiamap.com](https://www.pathiamap.com)
 本 skill 仓库:[github.com/Trentct/xiaojing-map](https://github.com/Trentct/xiaojing-map)
 配套网页仓库:[github.com/Trentct/book-map-visualization](https://github.com/Trentct/book-map-visualization)
 
@@ -132,7 +132,7 @@ python3 ~/.claude/skills/xiaojing-map/scripts/make-url.py \
 - 涉及国家: 8 个(中国 28、美国 20、英国 2、德国 2、奥地利 2、波兰 2、法国 1、其他 8)
 
 🗺️ 一键打开地图:
-https://book-map-visualization.vercel.app/#weread=N4KAB...
+https://www.pathiamap.com/#weread=N4KAB...
 
 (已自动在浏览器打开,3 秒后地图会自动生成)
 ```

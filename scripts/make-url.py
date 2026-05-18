@@ -27,7 +27,7 @@ import sys
 from pathlib import Path
 
 # ===== 默认配置 =====
-DEFAULT_PROD_BASE_URL = "https://book-map-visualization.vercel.app"
+DEFAULT_PROD_BASE_URL = "https://www.pathiamap.com"
 DEFAULT_DEV_BASE_URL = "http://localhost:3000"
 # Safari 在 ~80 KB 处会截断 URL,留余量
 MAX_URL_LENGTH = 70_000
