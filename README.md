@@ -14,13 +14,19 @@
 
 ### 第 1 步:让 AI 装好两个 skill
 
-把下面这段话粘贴到 Cursor / Claude Code 对话框,AI 会自动装好(自动选合适的 skills 目录):
+把下面这段话粘贴到 Cursor / Claude Code 对话框,AI 会自动装到合适的 skills 目录:
 
 ```
 帮我装下面两个 skill:
-1. https://weread.qq.com/r/weread-skills
-2. https://github.com/Trentct/xiaojing-map
+
+1. 下载 https://cdn.weread.qq.com/skills/weread-skills.zip 安装 skill
+
+2. git clone https://github.com/Trentct/xiaojing-map.git 安装 skill
 ```
+
+> 这里的 "下载 ... 安装 skill" 是微信读书官方为 AI 设计的命令语法 —
+> 动词 + URL + "安装 skill",AI 看到就知道把它当成 skill 装到本机。
+> 第二条沿用同一格式,但用 `git clone` 因为是开源 GitHub 仓库。
 
 ### 第 2 步:拿到你的微信读书 API Key
 
